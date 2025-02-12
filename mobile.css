@@ -9,4 +9,8 @@
     footer{
         max-width: 100%;
     }
+    .imput-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
