@@ -24,11 +24,11 @@ function handlesubmit (e) {
     };
     
     if (currency.value ==='Dol'){
-        conversao = valorRecebido.value * 5.78;
+        conversao = valorRecebido.value / 5.78;
         resultado.innerHTML = conversao.toFixed(2) + ('US$');
 
     } else if ( currency.value === 'Eur') {
-        conversao = valorRecebido.value * 5.96 ;
+        conversao = valorRecebido.value / 5.96 ;
         resultado.innerHTML = conversao.toFixed(2) + ('€') ;
     }
 
